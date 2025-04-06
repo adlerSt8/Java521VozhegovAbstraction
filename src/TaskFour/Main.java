@@ -8,10 +8,10 @@ public class Main {
 
         Dish salad = new Salad("Греческий салат", 350.0, saladIngredients);
         Dish pasta = new Pasta("Карбонара", 450.0, pastaIngredients);
-        Dish capuccino = new Drink("Капуччино", 350.0, cappuccinoIngredients);
+        Dish cappuccino = new Drink("Капуччино", 350.0, cappuccinoIngredients);
 
         salad.prepare();
         pasta.prepare();
-        capuccino.prepare();
+        cappuccino.prepare();
     }
 }
